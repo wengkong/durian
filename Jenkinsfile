@@ -1,4 +1,4 @@
-node('docker') {
+node {
     checkout scm
     def environment = docker.build('durian')
     environment.inside {
