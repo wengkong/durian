@@ -4,4 +4,4 @@ RUN apt-get update
 
 #RUN useradd jenkins --shell /bin/bash --create-home
 
-USER jenkins
+USER wengkong
